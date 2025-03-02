@@ -1,0 +1,10 @@
+第一、文本词频分析，使用Collection中的Counter库进行词频分析
+第二、文本主题建模及文本词云绘制，训练LDA模型来提取每个主题的前10个关键词，利用预处理后的结果，使用pyecharts中的WordCloud进行绘制
+第三、网络爬虫采集，使用了BeautifulSoup来解析网页获取指定标签的内容
+第四、中文文本分类，使用Bunch来处理数据，使用CountVectorizer，使用SVC支持向量机算法来训练模型
+第五、文本情感计算，使用SnowNLP来获取史记各章节的情感得分
+第六、自动摘要，用Pipeline来初始化摘要生成器，使用create_summary来自动生成摘要
+第七、热点预测，利用词频分析来进行热点预测，并使用pyecharts中的Line来绘制结果
+第八、中文文本聚类，使用TfidfVectorizer来获取文本特征向量，使用KMeans算法来进行聚类分析
+
+Python版本需3.6以上
